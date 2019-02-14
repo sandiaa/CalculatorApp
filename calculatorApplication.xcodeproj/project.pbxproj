@@ -12,6 +12,8 @@
 		846B87CC21CCC1CA00A07A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B87CA21CCC1CA00A07A0E /* Main.storyboard */; };
 		846B87CE21CCC1CB00A07A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B87CD21CCC1CB00A07A0E /* Assets.xcassets */; };
 		846B87D121CCC1CB00A07A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B87CF21CCC1CB00A07A0E /* LaunchScreen.storyboard */; };
+		846B87DA21CCC20B00A07A0E /* calculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B87D821CCC20B00A07A0E /* calculatorController.swift */; };
+		846B87DB21CCC20B00A07A0E /* calculatorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846B87D921CCC20B00A07A0E /* calculatorController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		846B87CD21CCC1CB00A07A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846B87D021CCC1CB00A07A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846B87D221CCC1CB00A07A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B87D821CCC20B00A07A0E /* calculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorController.swift; sourceTree = "<group>"; };
+		846B87D921CCC20B00A07A0E /* calculatorController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = calculatorController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				846B87C621CCC1CA00A07A0E /* AppDelegate.swift */,
+				846B87D821CCC20B00A07A0E /* calculatorController.swift */,
+				846B87D921CCC20B00A07A0E /* calculatorController.xib */,
 				846B87C821CCC1CA00A07A0E /* ViewController.swift */,
 				846B87CA21CCC1CA00A07A0E /* Main.storyboard */,
 				846B87CD21CCC1CB00A07A0E /* Assets.xcassets */,
@@ -125,6 +131,7 @@
 				846B87D121CCC1CB00A07A0E /* LaunchScreen.storyboard in Resources */,
 				846B87CE21CCC1CB00A07A0E /* Assets.xcassets in Resources */,
 				846B87CC21CCC1CA00A07A0E /* Main.storyboard in Resources */,
+				846B87DB21CCC20B00A07A0E /* calculatorController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				846B87C921CCC1CA00A07A0E /* ViewController.swift in Sources */,
 				846B87C721CCC1CA00A07A0E /* AppDelegate.swift in Sources */,
+				846B87DA21CCC20B00A07A0E /* calculatorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
